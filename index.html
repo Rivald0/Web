@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SMK N 1 Lumban Julu</title>
+    <link rel="stylesheet" type="text/css" href="css/style-index.css">
+    <script src="https://kit.fontawesome.com/636810249d.js"></script>
+    <script src="js/open.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img id="logo" src="img/logo.png" />
+            <h1>SMKN 1 Lumban Julu</h1>
+            <br>
+            <nav>
+                <nav>
+                    <ul id="ul">
+                        <li><a href="index.html" onclick="home()"><i class="fa-solid fa-house"></i>&nbsp; Home</a></li>
+                        <li><a href="informasi.html" onclick="info()"><i
+                                    class="fa-solid fa-landmark"></i>&nbsp;Informasi
+                                Sekolah</a></li>
+                        <li><a href="alamat.html" onclick="alamat()"><i
+                                    class="fa-solid fa-envelope"></i>&nbsp;Kontak</a>
+                        </li>
+                        <li><a href="#" onclick="help()"><i class="fa-regular fa-circle-question"></i>&nbsp; Help</a>
+                        </li>
+                        <li><a href="#" onclick="contact()"><i class="fa-regular fa-id-card"></i>&nbsp; Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </nav>
+        </header>
+        <section>
+            <br>
+            <p id="header"><b>WELCOME TO WEBSITE SMK N 1 LUMBAN JULU</b></p>
+            <p id="header1">Ini adalah Web Informasi tentang SMK N 1 Lumban Julu</p>
+            <br>
+            <script>
+                var header = document.getElementById("header");
+                header.addEventListener("mouseover", hover);
+                header.addEventListener("mouseout", out);
+
+                function hover() {
+                    document.getElementById('header').innerHTML = "SMKN 1 Lumban Julu";
+                    document.getElementById('header').style.fontFamily = "Arial";
+                }
+
+                function out() {
+                    document.getElementById('header').innerHTML = "Welcome to Website SMK N 1 Lumban Julu";
+                }
+            </script>
+
+            <br>
+        </section>
+        <footer>
+            <p>Copyright@13322033_Rivaldo Butarbutar</p>
+            <a href="https://www.facebook.com/profile.php?id=100048130653042" target="_blank"><i
+                    class="fa-brands fa-facebook"></i>&nbsp;
+                Facebook</a>
+            <a href="https://twitter.com/YohanesGeopani" target="_blank"><i class="fa-brands fa-twitter"></i>&nbsp;
+                Twitter</a>
+            <a href="https://www.instagram.com/vibes.xyz_/" target="_blank"><i class="fa-brands fa-instagram"></i>&nbsp;
+                Instagram</a>
+        </footer>
+        <div class="clear"></div>
+    </div>
+</body>
+
+</html>
